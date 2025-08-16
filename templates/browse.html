@@ -1,0 +1,6 @@
+<h2>Browse Users</h2>
+<ul>
+{% for u in users %}
+  <li>{{ u[0] }} ({{ u[1] }} years) - {{ u[2] }}</li>
+{% endfor %}
+</ul>
